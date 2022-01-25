@@ -15,7 +15,7 @@ body {
 }
 
 .inf h1 {
-	font-size: 25pt;
+	font-size: 20pt;
 	font-variant: bold;
 }
 
@@ -29,4 +29,26 @@ body {
 	margin-left: 10em;
 	margin-top: 1em;
 	margin-bottom: 1em;
+}
+
+.inf a {
+	
+	text-decoration: none;
+	color: black;
+	font-size: 11pt;
+	font-variant: regular;
+	
+}
+
+.b {
+	margin-top: 2em;
+	border: 1px solid black;
+	border-radius: 17px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	transition-duration: .5s;
+}
+
+.b:hover {
+	background-color: rgba(255, 255, 255, .5);
 }
